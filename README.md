@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD033 MD041 MD045 -->
+
 <p align="center">
   <!--<img width="623" height="168" src="https://github.com/tfeldmann/organize/raw/gh-pages/img/organize.svg?sanitize=true" alt="organize logo">-->
   <a href="https://tfeldmann.github.io/organize/changelog/" target="_blank"><img width="100%" src="https://github.com/tfeldmann/organize/blob/main/docs/img/organize-v3.jpg?raw=true" alt="organize v3 is out"></a>
@@ -20,7 +22,6 @@
 <a href="https://organize.readthedocs.io/" target="_blank">Full documentation at Read the docs</a>
 </p>
 
-
 ## v3 is now available
 
 The new version should be *much* faster and fix a lot of bugs. It also comes with
@@ -40,7 +41,7 @@ Time to automate it once and benefit from it forever.
 **organize** is a command line, open-source alternative to apps like Hazel (macOS)
 or File Juggler (Windows).
 
-### People use this for:
+### People use this for
 
 - Sorting and tagging pictures into various folder structures based on EXIF data
 - Sorting and renaming PDF invoices based on file content
@@ -78,10 +79,10 @@ pip install -U organize-tool
 ```
 
 If you want the text extraction capabilities, install with `textract` like this (the
-qoutes are important):
+quotes are important):
 
 ```bash
-pip install "organize-tool[texttract]"
+pip install "organize-tool[textract]"
 ```
 
 This command can also be used to update to the newest version. Now you can run `organize --help` to check if the installation was successful.
@@ -253,16 +254,18 @@ Options:
   -h --help                       Show this help page.
 ```
 
-## Other donation options:
+## Other donation options
 
 ETH:
 
-```
+```bash
 0x8924a060CD533699E230C5694EC95b26BC4168E7
 ```
 
 BTC:
 
-```
+```bash
 39vpniiZk8qqGB2xEqcDjtWxngFCCdWGjY
 ```
+
+<!-- cspell:ignore vpnii wxng -->
