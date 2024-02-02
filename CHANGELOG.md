@@ -2,7 +2,7 @@
 
 [Unreleased]
 
-- Add a new output format `errorsonly` which only shows output if an error occured.
+- Add a new output format `errorsonly` which only shows output if an error occurred.
 
 ## v3.0.1 (2024-01-12)
 
@@ -35,7 +35,7 @@
 - You can now specify the timezone in all time based filters.
 - Removed hidden (deprecated) CLI option `--config-file`.
 - Lots of new tests and some bugfixes.
-- `exif` filter now supports the simplematch syntax.
+- `exif` filter now supports the `simplematch` syntax.
 - Placeholder`{now}` must be `{now()}` now.
 - Multiple `path`s per location are now supported.
 - Locations now support a `min_depth` option
@@ -95,7 +95,7 @@
 ## v2.1.0 (2022-02-11)
 
 - Added filter `date_added` (macOS only)
-- `created` filter now supports gnu coreutils stat utility for birthtime detection
+- `created` filter now supports gnu `coreutils` stat utility for `birthtime` detection
 - refactored time based filters into a common class
 
 ## v2.0.9 (2022-02-10)
@@ -131,7 +131,7 @@
 
 ## v2.0.3 (2022-02-07)
 
-- Fixed typo: `system_exlude_files`
+- Fixed typo in `system_exclude_files`
 
 ## v2.0.2 (2022-02-07)
 
@@ -206,9 +206,9 @@ Please backup all your important stuff before running and use the simulate optio
   `lename`-filter.
 - Updated dependencies
 - Because installing `textract` is quite hard on some platforms it is now an optional
-  dendency. Install it with `pip install organize-tool[textract]`
+  dependency. Install it with `pip install organize-tool[textract]`
 - This version needs python 3.6 minimum. Some dependencies that were simply backports
-  (thlib2, typing) are removed.
+  (`thlib2`, `typing`) are removed.
 - Add timezones in created and last_modified filters (Thank you, @win0err!)
 
 ## v1.9.1 (2020-11-10)
@@ -235,14 +235,14 @@ Please backup all your important stuff before running and use the simulate optio
 - Added filter `FileContent`.
 - Python 3.4 is officially deprecated and no longer supported.
 - `--config-file` command line option now supports `~` for user folder and expansion
-  oenvironment variables
+  of environment variables
 - Added `years`, `months`, `weeks` and `seconds` parameter to filter `created` and
   `stmodified`
 
 ## v1.7.0 (2019-11-26)
 
 - Added filter `Exif` to filter by image exif data.
-- Placeholder variable properties are now case insensitve.
+- Placeholder variable properties are now case insensitive.
 
 ## v1.6.2 (2019-11-22)
 
@@ -259,7 +259,7 @@ Please backup all your important stuff before running and use the simulate optio
 - Added filter: `FileSize`
 - The organize module can now be run directly: `python3 -m organize`
 - Various code simplifications and speedups.
-- Fixes an issue with globstring file exclusion.
+- Fixes an issue with `globstring` file exclusion.
 - Remove `clint` dependency as it is no longer maintained.
 - Added various integration tests
 - The "~~ SIMULATION ~~"-banner now takes up the whole terminal width
@@ -270,14 +270,14 @@ Please backup all your important stuff before running and use the simulate optio
 
 ## v1.5.2 (2019-07-29)
 
-- Environment variables in folder pathes are now expanded (syntax `$name` or `${name}`
+- Environment variables in folder paths are now expanded (syntax `$name` or `${name}`
   a additionally `%name%` on windows).
   F example this allows the usage of e.g. `%public/Desktop%` in windows.
 
 ## v1.5.1 (2019-07-23)
 
 - New filter "Created" to filter by creation date.
-- Fixes issue #39 where globstrings don't work most of the time.
+- Fixes issue #39 where `globstrings` don't work most of the time.
 - Integration test for issue #39
 - Support indented config files
 
@@ -333,7 +333,7 @@ Please backup all your important stuff before running and use the simulate optio
 ## v1.1 (2018-03-13)
 
 - Removes the colon from extension filter output so `{extension.lower}` now
-  rurns `'png'` instead of `'.png'`.
+  returns `'png'` instead of `'.png'`.
 
 ## v1.0 (2018-03-13)
 
