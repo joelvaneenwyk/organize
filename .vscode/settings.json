@@ -1,0 +1,69 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "env": {
+                "PATH": "$env:USERPROFILE\\AppData\\Roaming\\Python\\Python310\\Scripts;C:\\Program Files\\Python310;${env:PATH};${env:windir}\\Sysnative;${env:windir}\\System32"
+            }
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd",
+            "env": {
+                "PATH": "$env:USERPROFILE\\AppData\\Roaming\\Python\\Python310\\Scripts;C:\\Program Files\\Python310;${env:windir}\\Sysnative;${env:windir}\\System32"
+            }
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "autorefs",
+        "birthtime",
+        "cnst",
+        "collectfiles",
+        "coreutils",
+        "danielklim",
+        "dedented",
+        "errorcode",
+        "errorsonly",
+        "exiftool",
+        "EXIFTOOL",
+        "exlude",
+        "Feldmann",
+        "filecontent",
+        "globstring",
+        "globstrings",
+        "hardlink",
+        "jleatham",
+        "lastmodified",
+        "lastused",
+        "lename",
+        "mkdocstrings",
+        "nondirs",
+        "Posix",
+        "pydantic",
+        "pyfilesystem",
+        "PYTHONUTF",
+        "qtff",
+        "Quicktime",
+        "rawdamedia",
+        "returncode",
+        "scandir",
+        "Scandir",
+        "simplematch",
+        "stmodified",
+        "thlib",
+        "xdhmoore"
+    ]
+}
