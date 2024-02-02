@@ -1,0 +1,6 @@
+poetry
+pyfakefs
+pytest
+textract
+ruff
+pylint
