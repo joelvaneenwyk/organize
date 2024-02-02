@@ -19,7 +19,7 @@ Tags = Iterable[str]
 
 
 def default_yaml_cnst(loader, tag_suffix, node):
-    # disable yaml constructors for strings starting with exclamation marks
+    """Disable yaml constructors for strings starting with exclamation marks."""
     # https://stackoverflow.com/a/13281292/300783
     return str(node.tag)
 
